@@ -1,0 +1,2 @@
+PowerShell.exe -Command "(Get-WmiObject -class Win32_OperatingSystem).Caption"
+PowerShell.exe -Command "pushd $env:APPDATA; dir; popd;"
