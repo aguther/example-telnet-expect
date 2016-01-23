@@ -13,3 +13,6 @@ Steps to use this example:
 - Install packets 'telnet' and 'expect' by invoking 'sudo yum install -y telnet expect' on RHEL/CentOS
 - Enter the commands you wish to use line by line into the file 'commands.txt'
 - Call the file 'telnet.sh' with the arguments needed
+
+Example:
+./telnet.sh 192.168.0.1 Administrator Password commands.txt
